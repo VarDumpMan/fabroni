@@ -1,0 +1,9 @@
+@media screen and (max-width: 575px) {
+    .flex-xs-column-reverse {
+        flex-direction: column-reverse !important;
+    }
+}
+
+.text-justify {
+    text-align: justify;
+}
