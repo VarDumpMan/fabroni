@@ -50,7 +50,7 @@ setInterval(() => {
         profile.classList.add("bg-gradient-primary-to-secondary")
     }
     
-}, 2000);
+}, 3000);
 
 // Gestion des fenêtres modales des pages
 
