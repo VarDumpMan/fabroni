@@ -12,6 +12,7 @@ var a_propos_lien2 = document.querySelector("#a_propos_lien2")
 
 // Gestion du profil
 var profileImages = document.querySelectorAll(".profile-img")
+var profile = document.querySelector(".profile")
 var i = 0
 
 // Loader
@@ -38,9 +39,18 @@ function clearImage() {
 setInterval(() => {
     clearImage()
     profileImages[i].style.display = "block"
+
     i = (i==0) ? 1 : 0
+    if (i==0) {
+        profile.classList.remove("bg-gradient-primary-to-secondary")
+        profile.classList.add("bg-gradient-new")
+    }
+    else {
+        profile.classList.remove("bg-gradient-new")
+        profile.classList.add("bg-gradient-primary-to-secondary")
+    }
     
-}, 5000);
+}, 2000);
 
 // Gestion des fenêtres modales des pages
 
