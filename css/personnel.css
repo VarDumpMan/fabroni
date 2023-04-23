@@ -24,6 +24,7 @@
     background-color: white;
 }
 
-.loader.end {
-    display: none;
+.loader.end { 
+    visibility: hidden;
+    transition: visibility 2s ease-in-out;
 }

@@ -74,6 +74,7 @@ livre_lien.onclick = function (e) {
     
     afficheLivres()
     cacheHome()
+    scrollTo(0, 0)
 }
 
 livre_lien2.onclick = function (e) {
@@ -81,6 +82,7 @@ livre_lien2.onclick = function (e) {
     
     afficheLivres()
     cacheHome()
+    scrollTo(0, 0)
 }
 
 accueil_lien.onclick = function (e) {
@@ -88,6 +90,7 @@ accueil_lien.onclick = function (e) {
     
     cacheLivres()
     afficheHome()
+    scrollTo(0, 0)
 }
 
 a_propos_lien.onclick = function (e) {
