@@ -9,6 +9,7 @@ var livre_lien = document.querySelector("#livre_lien")
 var livre_lien2 = document.querySelector("#livre_lien2")
 var a_propos_lien = document.querySelector("#a_propos_lien")
 var a_propos_lien2 = document.querySelector("#a_propos_lien2")
+var a_propos = document.getElementById("a_propos")
 
 // Gestion du profil
 var profileImages = document.querySelectorAll(".profile-img")
@@ -109,7 +110,7 @@ a_propos_lien.onclick = function (e) {
     afficheHome()
     cacheLivres()
 
-    scrollTo(0, 1500)
+    scrollTo(0, a_propos.offsetTop)
 }
 a_propos_lien2.onclick = function (e) {
     e.preventDefault()
@@ -117,5 +118,5 @@ a_propos_lien2.onclick = function (e) {
     afficheHome()
     cacheLivres()
 
-    scrollTo(0, 1500)
+    scrollTo(0, a_propos.offsetTop)
 }

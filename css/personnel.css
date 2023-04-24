@@ -2,7 +2,17 @@
     .flex-xs-column-reverse {
         flex-direction: column-reverse !important;
     }
+
+    .p-xs-5 {
+        padding: 2rem !important;
+    }
+
+    .px-xs-3 {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
 }
+
 
 .text-justify {
     text-align: justify;
