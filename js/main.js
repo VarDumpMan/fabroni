@@ -27,6 +27,8 @@ window.onload = function () {
     loader.classList.add("end")
 }
 
+// alert(window.innerWidth)
+
 // Gestion du profil
 
 profileImages[1].style.display = "none"

@@ -91,6 +91,16 @@
     }
 }
 
+@media (min-width: 1200px) {
+    .w-xl-25em {
+        width: 25em;
+    }
+
+    .h-xl-100 {
+        height: 100vh;
+    }
+}
+
 .text-justify {
     text-align: justify;
 }
